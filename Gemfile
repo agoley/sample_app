@@ -10,6 +10,7 @@ gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
   gem 'mysql2'
   gem 'rspec-rails', '2.13.1'
+  gem 'factory_girl_rails', '4.2.0'
 end
 
 group :test do
